@@ -1,0 +1,11 @@
+CleanedData
+
+The script run_analysis.R downloads the data from :
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The script then clean the data by doing the following:
+
+1) Merge training and test data sets.
+2) Label merged data set
+3) Extracts the mean and standard deviation for each measurement
+4) Generate the CleanedData.txt that is a data set with the average of each variable for each activity and each volunteer.
